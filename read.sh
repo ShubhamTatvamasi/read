@@ -3,13 +3,13 @@
 while true; do
   read -p "Do you wish to exit this script? (Y/N): " answer
   case $answer in
-    [Yy]* )
+    [yY]*)
       echo Yes
       exit
       ;;
-    [Nn]* )
+    [nN]*)
       echo No
       ;;
-    * ) echo "Please answer Y or N.";;
+    *) echo "Please answer Y or N.";;
   esac
 done
